@@ -193,6 +193,16 @@ namespace pdf2text.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
+        internal static byte[] System_CommandLine {
+            get {
+                object obj = ResourceManager.GetObject("System_CommandLine", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
         internal static byte[] System_Diagnostics_DiagnosticSource {
             get {
                 object obj = ResourceManager.GetObject("System_Diagnostics_DiagnosticSource", resourceCulture);

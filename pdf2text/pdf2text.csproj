@@ -180,6 +180,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="lorem.pdf" />
     <None Include="pdf2text.snk" />
   </ItemGroup>
   <ItemGroup>
@@ -250,6 +251,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="book.ico" />
+    <Content Include="lorem.txt" />
+    <None Include="lib\System.CommandLine.dll" />
     <EmbeddedResource Include="lib\System.Drawing.dll" />
   </ItemGroup>
   <ItemGroup>

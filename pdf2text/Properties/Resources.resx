@@ -157,6 +157,9 @@
   <data name="System_Buffers" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\lib\System.Buffers.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="System_CommandLine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\lib\System.CommandLine.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="System_Diagnostics_DiagnosticSource" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\lib\System.Diagnostics.DiagnosticSource.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>

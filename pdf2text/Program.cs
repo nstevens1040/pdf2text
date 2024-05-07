@@ -114,12 +114,16 @@
                 {
                     Application.Exit();
                 }
+            } else
+            {
+                destin_folder = args[1];
             }
             if (!Directory.Exists(destin_folder))
             {
                 Console.WriteLine("Folder not found");
                 Application.Exit();
             }
+            destin_folder = new Regex(@"\\$").Replace(destin_folder, String.Empty);
             FileInfo fi = new FileInfo(source_pdf_file);
             string out_text_file = destin_folder + Path.DirectorySeparatorChar + Path.GetFileNameWithoutExtension(fi.FullName) + ".txt";
             int to_page = new PdfDocument(new PdfReader(source_pdf_file)).GetNumberOfPages();
@@ -201,7 +205,7 @@
                 StartInfo = new ProcessStartInfo()
                 {
                     FileName = db,
-                    Arguments = $" \"{out_text_file}\"",
+                    Arguments = $" \"{new Uri(out_text_file).AbsoluteUri}\"",
                     RedirectStandardOutput = true,
                     RedirectStandardError = true,
                     UseShellExecute = false
