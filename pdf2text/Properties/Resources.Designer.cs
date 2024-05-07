@@ -203,6 +203,16 @@ namespace pdf2text.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
+        internal static byte[] System_Drawing {
+            get {
+                object obj = ResourceManager.GetObject("System_Drawing", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
         internal static byte[] System_Memory {
             get {
                 object obj = ResourceManager.GetObject("System_Memory", resourceCulture);

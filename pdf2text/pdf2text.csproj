@@ -141,6 +141,7 @@
       <HintPath>lib\System.Diagnostics.DiagnosticSource.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>lib\System.Memory.dll</HintPath>
@@ -249,6 +250,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="book.ico" />
+    <EmbeddedResource Include="lib\System.Drawing.dll" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.8">

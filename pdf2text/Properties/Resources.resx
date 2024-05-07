@@ -160,6 +160,9 @@
   <data name="System_Diagnostics_DiagnosticSource" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\lib\System.Diagnostics.DiagnosticSource.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="System_Drawing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\lib\System.Drawing.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="System_Memory" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\lib\System.Memory.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
